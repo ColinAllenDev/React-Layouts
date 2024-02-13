@@ -1,0 +1,13 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stack[data-recursive='true'] * + * {
+    margin-block-start: var(--s1)
+}
+
+.stack[data-recursive='false'] > * + * {
+    margin-block-start: var(--s1)
+}

@@ -1,0 +1,10 @@
+.box {
+    display: block;
+    padding: var(--padding);
+    border-width: var(--border-width);
+    border: var(--border-width) solid;
+    /* High-Contrast mode */
+    outline: var(--border-width) solid transparent;
+    outline-offset: calc(var(--border-width) * -1);
+}
+

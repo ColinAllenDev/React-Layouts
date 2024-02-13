@@ -1,0 +1,10 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    border-width: var(--border-width);
+    border: var(--border-width) solid;
+    padding: var(--padding);
+}
